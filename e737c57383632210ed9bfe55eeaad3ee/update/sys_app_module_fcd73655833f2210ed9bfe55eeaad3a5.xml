@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="GYM Management">5a3f5d3383e32210ed9bfe55eeaad31d</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>GYM Inventories</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1606613_gym_ma_0_gym_inventory</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1606613_gym_ma_0.gym_inventory_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:20:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fcd73655833f2210ed9bfe55eeaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GYM Inventories</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sys_app_module_fcd73655833f2210ed9bfe55eeaad3a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:20:59</sys_updated_on>
+        <timeline_page/>
+        <title>GYM Inventories</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

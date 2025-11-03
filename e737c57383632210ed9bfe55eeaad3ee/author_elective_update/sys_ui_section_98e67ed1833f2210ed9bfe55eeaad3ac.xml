@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="98e67ed1833f2210ed9bfe55eeaad3ac" sys_domain="global" table="x_1606613_gym_ma_0_gym_equipments" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-04 17:18:14</sys_created_on>
+            <sys_id>a8377615833f2210ed9bfe55eeaad313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_equipments" sys_domain="global" view="Default view">98e67ed1833f2210ed9bfe55eeaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-04 17:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1606613_gym_ma_0_gym_equipments</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-04 17:16:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98e67ed1833f2210ed9bfe55eeaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1606613_gym_ma_0_gym_equipments</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+            <sys_update_name>sys_ui_section_98e67ed1833f2210ed9bfe55eeaad3ac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-04 17:16:52</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</application>
+        <file_path/>
+        <instance_id>c792087c3b306a54baf6048aa4e45a60</instance_id>
+        <instance_name>dev318773</instance_name>
+        <name>sys_ui_section_98e67ed1833f2210ed9bfe55eeaad3ac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="98e67ed1833f2210ed9bfe55eeaad3ac" sys_domain="global" table="x_1606613_gym_ma_0_gym_equipments" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-04 17:18:14</sys_created_on><sys_id>a8377615833f2210ed9bfe55eeaad313</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_equipments" sys_domain="global" view="Default view">98e67ed1833f2210ed9bfe55eeaad3ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-04 17:18:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1606613_gym_ma_0_gym_equipments</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-04 17:16:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>98e67ed1833f2210ed9bfe55eeaad3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1606613_gym_ma_0_gym_equipments</sys_name><sys_overrides/><sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package><sys_policy/><sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope><sys_update_name>sys_ui_section_98e67ed1833f2210ed9bfe55eeaad3ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-04 17:16:52</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-235693946</payload_hash>
+        <record_name>GYM Equipments</record_name>
+        <reverted_from/>
+        <source>7d8845f383632210ed9bfe55eeaad34e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:18:14</sys_created_on>
+        <sys_id>2c377615833f2210ed9bfe55eeaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19915bc6f1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:18:14</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>60377615ad3f22103cb5c04a94f12915</update_guid>
+        <update_guid_history>60377615ad3f22103cb5c04a94f12915:-235693946,64e67ed1563f2210a52616217bc392af:563245608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:20:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>a47e79452a804aa08e28a9be6c4ec564</sys_id>
+        <sys_metadata>98e67ed1833f2210ed9bfe55eeaad3ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1606613_gym_ma_0_gym_equipments</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_parent display_value="">5eb6b691833f2210ed9bfe55eeaad313</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_scope_delete display_value="">297560da7aff42909549620d79ab5a59</sys_scope_delete>
+        <sys_update_name>sys_ui_section_98e67ed1833f2210ed9bfe55eeaad3ac</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_98e67ed1833f2210ed9bfe55eeaad3ac">2c377615833f2210ed9bfe55eeaad315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:20:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

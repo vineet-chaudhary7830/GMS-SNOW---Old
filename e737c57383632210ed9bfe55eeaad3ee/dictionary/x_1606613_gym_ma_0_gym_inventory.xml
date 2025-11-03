@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cea7be15833f2210ed9bfe55eeaad3cf" label="GYM Inventory" max_length="40" name="x_1606613_gym_ma_0_gym_inventory" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Supplier Address" max_length="40" name="supplier_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Condition" max_length="40" name="condition" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Broken" sequence="3" value="broken"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="good"/>
+                <element inactive_on_update="false" label="Needs Repair" sequence="2" value="needs repair"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Unit Type" max_length="40" name="unit" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Kg" sequence="0" value="kg"/>
+                <element inactive_on_update="false" label="Pounds" sequence="1" value="pounds"/>
+                <element inactive_on_update="false" label="Numbers" sequence="2" value="numbers"/>
+                <element inactive_on_update="false" label="Ltrs" sequence="3" value="ltrs"/>
+            </choice>
+        </element>
+        <element label="Quantity Available" max_length="40" name="quantity_available" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="150" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Maintenance Date" max_length="40" name="maintenance_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Item Type" mandatory="true" max_length="40" name="item_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Equipment" sequence="0" value="equipment"/>
+                <element inactive_on_update="false" label="Supplement" sequence="1" value="supplement"/>
+                <element inactive_on_update="false" label="Merchandise" sequence="2" value="merchandise"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Supplier Name" max_length="40" name="supplier_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Logs" max_length="4000" name="logs" type="journal"/>
+        <element attributes="encode_utf8=false" default="javascript: gs.getUserID();" label="Product Added/Change By" max_length="32" name="product_added" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="accessories" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Strength" sequence="2" value="strength"/>
+                <element inactive_on_update="false" label="Nutrition" sequence="3" value="nutrition"/>
+                <element inactive_on_update="false" label="Accessories" sequence="0" value="accessories"/>
+                <element inactive_on_update="false" label="Cardio" sequence="1" value="cardio"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element attributes="omit_sys_original=true" label="Cost (Purchase cost per unit)" max_length="20" name="cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Item Name" mandatory="true" max_length="40" name="item_name" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="product_added"/>
+        </index>
+    </element>
+</database>

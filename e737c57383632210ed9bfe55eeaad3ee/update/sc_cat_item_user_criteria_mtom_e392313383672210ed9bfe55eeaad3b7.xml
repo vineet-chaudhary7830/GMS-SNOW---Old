@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="GMS Registration">2b92313383672210ed9bfe55eeaad3ad</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:27:44</sys_created_on>
+        <sys_id>e392313383672210ed9bfe55eeaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GMS Registration.Registration form available for Public</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e392313383672210ed9bfe55eeaad3b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 20:27:44</sys_updated_on>
+        <user_criteria display_value="Registration form available for Public">2d1bf05373320010fdbd04fbc4f6a783</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

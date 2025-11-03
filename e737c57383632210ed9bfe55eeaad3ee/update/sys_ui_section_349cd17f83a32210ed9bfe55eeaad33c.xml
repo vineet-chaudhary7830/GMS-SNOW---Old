@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="349cd17f83a32210ed9bfe55eeaad33c" sys_domain="global" table="x_1606613_gym_ma_0_gym_users" version="3" view="Member">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>cfd1693783e32210ed9bfe55eeaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>47d1693783e32210ed9bfe55eeaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>cbd1693783e32210ed9bfe55eeaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>membership_plan</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>43d1693783e32210ed9bfe55eeaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_trainer</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>c7d1693783e32210ed9bfe55eeaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>4fd1693783e32210ed9bfe55eeaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>height</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>c3d1693783e32210ed9bfe55eeaad389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>4bd1693783e32210ed9bfe55eeaad389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>dfd1693783e32210ed9bfe55eeaad389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>profile_picture</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>57d1693783e32210ed9bfe55eeaad38a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>dbd1693783e32210ed9bfe55eeaad38a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>53d1693783e32210ed9bfe55eeaad38b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>d7d1693783e32210ed9bfe55eeaad38b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>5fd1693783e32210ed9bfe55eeaad38b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bmi</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>d3d1693783e32210ed9bfe55eeaad38c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>member_type</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 19:14:31</sys_created_on>
+            <sys_id>5bd1693783e32210ed9bfe55eeaad38c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1606613_gym_ma_0_gym_users" sys_domain="global" view="389c917f83a32210ed9bfe55eeaad3af">349cd17f83a32210ed9bfe55eeaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 19:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1606613_gym_ma_0_gym_users</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-30 18:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>349cd17f83a32210ed9bfe55eeaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1606613_gym_ma_0_gym_users</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+            <sys_update_name>sys_ui_section_349cd17f83a32210ed9bfe55eeaad33c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-30 18:51:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Member" name="Member">389c917f83a32210ed9bfe55eeaad3af</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

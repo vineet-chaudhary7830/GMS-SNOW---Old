@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="u_reg_xmap_177636">3f92713383672210ed9bfe55eeaad3a4</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target) { return new global.ExternalUserRegistrationUtil().updateUserDomainDetails(source, target); })(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:27:45</sys_created_on>
+        <sys_id>7b92713383672210ed9bfe55eeaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sys_transform_script_7b92713383672210ed9bfe55eeaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 20:27:45</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

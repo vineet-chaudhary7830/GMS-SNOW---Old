@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ba92bdff83272210ed9bfe55eeaad351" extends="sys_user_registration_request" label="Gym Ma 0 User Reg Req 722630" max_length="40" name="x_1606613_gym_ma_0_user_reg_req_722630" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=membership_type" choice="3" label="Membership Type" max_length="40" name="membership_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="100" value="daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="200" value="weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="300" value="monthly"/>
+                <element inactive_on_update="false" label="Yearly" sequence="100" value="yearly"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=member_type" choice="3" label="Member Type" max_length="40" name="member_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Trainer" sequence="100" value="trainer"/>
+                <element inactive_on_update="false" label="Manager" sequence="100" value="manager"/>
+                <element inactive_on_update="false" label="Member/User" sequence="100" value="member_user"/>
+            </choice>
+        </element>
+    </element>
+</database>

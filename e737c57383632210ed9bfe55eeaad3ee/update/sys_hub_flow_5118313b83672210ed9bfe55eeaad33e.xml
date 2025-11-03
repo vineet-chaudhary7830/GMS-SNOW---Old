@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=769000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>convert_registration_to_gym_user_record</internal_name>
+        <label_cache>[{"name":"Created_1.current.email","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"email","usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["u_string_2"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["u_string_2"]}},{"name":"Created_1.current.membership_type","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Membership Type","reference":"","reference_display":"Membership Type","type":"choice","base_type":"choice","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"membership_type","choices":[{"used":false,"label":"Daily","image":"","rawLabel":"Daily","selected":false,"missing":false,"reference":false,"value":"daily","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Yearly","image":"","rawLabel":"Yearly","selected":false,"missing":false,"reference":false,"value":"yearly","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Weekly","image":"","rawLabel":"Weekly","selected":false,"missing":false,"reference":false,"value":"weekly","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Monthly","image":"","rawLabel":"Monthly","selected":false,"missing":false,"reference":false,"value":"monthly","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}}],"usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["membership_plan"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["membership_plan"]}},{"name":"Created_1.current.member_type","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Member Type","reference":"","reference_display":"Member Type","type":"choice","base_type":"choice","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"member_type","choices":[{"used":false,"label":"Manager","image":"","rawLabel":"Manager","selected":false,"missing":false,"reference":false,"value":"manager","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Member/User","image":"","rawLabel":"Member/User","selected":false,"missing":false,"reference":false,"value":"member_user","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Trainer","image":"","rawLabel":"Trainer","selected":false,"missing":false,"reference":false,"value":"trainer","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}}],"usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["member_type"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["member_type"]}},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"last_name","usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["name"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["name"]}},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"first_name","usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["name"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["name"]}},{"name":"{{static.4538753b83672210ed9bfe55eeaad3da}}","label":"GMS - GYM Manager","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2bdaf569-aef1-49ff-8469-8619df5d9219":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record","reference":"x_1606613_gym_ma_0_user_reg_req_722630","reference_display":"Gym Ma 0 User Reg Req 722630","type":"reference","base_type":"reference","usedInstances":{"2bdaf569-aef1-49ff-8469-8619df5d9219":["record"],"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["u_string_2"]},"attributes":{}}]</label_cache>
+        <master_snapshot>a13af1fb83672210ed9bfe55eeaad323</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Convert Registration to GYM User Record</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>e50bf53f83672210ed9bfe55eeaad307</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:51:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5118313b83672210ed9bfe55eeaad33e</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Convert Registration to GYM User Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sys_hub_flow_5118313b83672210ed9bfe55eeaad33e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:32</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-08-30 14:04:28">6d0bf53f83672210ed9bfe55eeaad322</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1606613_gym_ma_0_user_reg_req_722630">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:04:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e50bf53f83672210ed9bfe55eeaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:27</sys_updated_on>
+        <table>x_1606613_gym_ma_0_user_reg_req_722630</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>5118313b83672210ed9bfe55eeaad33e</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:04:27</sys_created_on>
+        <sys_id>ad0bf53f83672210ed9bfe55eeaad307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:27</sys_updated_on>
+        <trigger display_value="">e50bf53f83672210ed9bfe55eeaad307</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5118313b83672210ed9bfe55eeaad33e^sys_idNOT INad0bf53f83672210ed9bfe55eeaad307"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5118313b83672210ed9bfe55eeaad33e^sys_idNOT INdd18313b83672210ed9bfe55eeaad33e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5118313b83672210ed9bfe55eeaad33e</id>
+        <name>Convert Registration to GYM User Record</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:51:36</sys_created_on>
+        <sys_id>dd18313b83672210ed9bfe55eeaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 20:51:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=dd18313b83672210ed9bfe55eeaad33e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5118313b83672210ed9bfe55eeaad33e^sys_idNOT IN6e98bd3b83672210ed9bfe55eeaad36d,ae98bd3b83672210ed9bfe55eeaad3cd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Convert Registration to GYM User Record">5118313b83672210ed9bfe55eeaad33e</model>
+        <model_id>5118313b83672210ed9bfe55eeaad33e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5118313b83672210ed9bfe55eeaad33e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:53:52</sys_created_on>
+        <sys_id>6e98bd3b83672210ed9bfe55eeaad36d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:00:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6e98bd3b83672210ed9bfe55eeaad36d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Convert Registration to GYM User Record">5118313b83672210ed9bfe55eeaad33e</model>
+        <model_id>5118313b83672210ed9bfe55eeaad33e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5118313b83672210ed9bfe55eeaad33e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:53:52</sys_created_on>
+        <sys_id>ae98bd3b83672210ed9bfe55eeaad3cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:00:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ae98bd3b83672210ed9bfe55eeaad3cd"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=5118313b83672210ed9bfe55eeaad33e^sys_idNOT IN1298bd3b83672210ed9bfe55eeaad368"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Convert Registration to GYM User Record">5118313b83672210ed9bfe55eeaad33e</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:53:51</sys_created_on>
+        <sys_id>1298bd3b83672210ed9bfe55eeaad368</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:25</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUJPLZACuvgS522bZNsAe0Edb/sQpAIlkjZRinIkSom7yL93qJtlSXbsWNk6DwkgkuIcHp05M/Tdd0NgjwrjwphhT1DjzOBS0UhiMVstKQwrPexKHOi5AEuCVRitjAsVJfTMYFEYzGiwFFjBYoZFDINhRGhkXFhnRopFQm9X8Q2BneD9bJtiT6OYhucn1xqZo5HluPNV4AbYNd0kppEb0Tn8Pbhj2x45JrxAeAyhVn8W7/22CtBnjEz0DVajKZ3D3wOqVvsLLkhEpXFxd39mLHEE0ZVG9r0xxTU8n/l4YlPTdyzHtk3TPh9Y3sjxLJs4mJp6wyZVjeOoDsbWXNAnRSWhpKKpRWZEMfkqxapasYBvkRMX4KeY/wu7n5t6HaOA3af5XPXoFvTkw/4i5D79ulQ8lPlIjjOfDEUSyC85fk0sZTgRqiQWRuADuIQuNWQNokDEbhfh47QM+JHL7HTFpAh9LKonrFTEvUTRWBPOuADq3ZybOEyiDP30+vLr9Mr968Ps8vfrqTu9vp1Nby5n11fGc3Yu9yHRO+YICyxufpznSg0fORX6A9IAcwErYz/iS/XBVzwtNfl8ttb5ZSgJz0hpad0vp+JNrZeH3yV209wqd78WsZT839d/tPWcDx4m29EIY0LxFtl6rCbb+sk7oKkOEuqn2yXgYmQfBQ9M83/ScGFZr5VwEBIqrtbbGTA5n4OouVwmSrP1iKWKXRW6mBC3xqNeCphe0nR+tucXFRwlEl5wq+/R1nFGW8XfJx4D3DtIwpKbbEuYZ5+KLaeJRCF8OPiH/CQCahQqbY3dBHheMMpuqaC+qomAgffWnj7zOOZyXkNdBc04aMWswoGYUHmkPHZ8ZPD7PpO4TXraILORzAdnsmUx5lFmm2Odx5bpeMwyx+YQM+KYpm/XMrkNZitK1ZDEm2T0YfkcZ2IUe0ivSXEB3qxnw14ySjc1WJKgJVLYxmU/0KyeoNkaWsP+nIP8r5JlPny1qc5dR+u59GOSYniD7GuDezogE+EjWO8r3M/D/j/zKEwkadqR3hNxidYr0E8Ffz/36IQshM52J4DNFafkgWvaS+FiuerB/RxmeRM6oCaYngN+5w0nE8/HNmPj0ZjaVsP91jA6sb0L13tBbWmXXLc5YKdw0i69HeB9RwBs+eDBAI93wEKYnf6Xz70Pp3tcUJlfiIX2spbhzQUntJzrN9tbodN1fh+b8ex84g+t8dgfw60FMp4NqIetgT3Ek/HIOR82Mr4FZRdM1cHMD7nLxKs4A7LFDb7lU6d1N39L2cZUKV2ODq/SEvrY7B2cB6lVSv1ZUGYqYYS+hPKXm/U6dEuhAGYX2r7K9T4osl+g3haGF6pFq1+A0L/C+EZo3WduYeXkrlQNkaSbZz36SkUH58MJc7othk26LGYNZjvMk28v9syQdGuudfUZ+wo+7cybrY3BKyTckEm9Y9jR0vRFitU7KfbbkeIc3UaVubj1HvkasO+ohGV9xTF1TMekbsjq5n0VIphAEARxhopfEilB3gqpBQVKBfTLEBDp6Me6dr2KtKFUCv6xQPIOvFXNYBgVDdTpFaqGFPq9AVMyxsOhs6UfnjRvwF2AXsB78mXr4KxIu5JsZ+06bN/mnp3VqybZTUXsWZd6PXV3cTru1J3l6aVTH194dt3fO1CcaEm5/w+ybrRJZB8AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5118313b83672210ed9bfe55eeaad33e^sys_idNOT IN2dbafdfb83672210ed9bfe55eeaad3d8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Convert Registration to GYM User Record">5118313b83672210ed9bfe55eeaad33e</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:03:05</sys_created_on>
+        <sys_id>2dbafdfb83672210ed9bfe55eeaad3d8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:54</sys_updated_on>
+        <ui_id>eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVUWvbMBD+K0XPxthxZ9q8jZTsZW1h3QKja4VsnROBLHuSnMYL+e87WXIa2oRusJcyP0V3352+7/z5cr8lgpMpyVNIPlymeZmlWTZJksnFeVrkWZFOeMYAzklEFKsBkZYVEuhwiMiayc4FNzTNkzxPM7rsa1ozmgw/OgPaIIwL00rWLwL60/frs28hVa6E5BoUmd4/RKRlGhtb0GS6fZH6U5qSFSAR+tXxPEHb9u3R2OfD2rMbn2g0d3ySiMDGguKARComDUSkZooz2+ieTK3uMKCB8Vsl+z1iJZTFhsRhN0b8wmsvEoerAJWV4HP7Iw2T8uHqill2h51L2+kALVeNKMH4mXCoWCft7DDmAbetFY3yJYPMUN3IrlY3fiRk32B8MRjBV0Y5tE6nYx5kVHer5unLyHIu1DCSkJRNyeT+xKzVouis47MlIKHGRmiJthVqSVvdrMVQjFzqeCnxEFeyecJLjViqmJWOeIxjZfEc41dDeMG0cCqusQ0W7yJiejOTzJhnLThE+rNzTLyyoIH6MbiSUovWfsQL1hDo7qLR/xySy5PGSotnIw2WNwfe76hBxaht8qNLkoxvtzO0gQVO07jsNE7MxlAzIXe7R9fjNKoS2tjBj7vdsTzqHdOPNdQFaOpce7rhAWhfYlaipegx9VbZAPSlrz/h/0P0Xy6ntz00Lqe5AMnNEVONmwlqZGuBepO92E4hebYIybCh0n+1oXCXD8872lNe3LtfUwf/SCcW1sNvarfuYbIHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2dbafdfb83672210ed9bfe55eeaad3d8"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5118313b83672210ed9bfe55eeaad33e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:53:53</sys_created_on>
+        <sys_id>6298bd3b83672210ed9bfe55eeaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 20:53:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5118313b83672210ed9bfe55eeaad33e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:53:52</sys_created_on>
+        <sys_id>6698bd3b83672210ed9bfe55eeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 20:53:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5118313b83672210ed9bfe55eeaad33e"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>convert_registration_to_gym_user_record</internal_name>
+        <label_cache>[{"name":"Created_1.current.email","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"email","usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["u_string_2"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["u_string_2"]}},{"name":"Created_1.current.membership_type","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Membership Type","reference":"","reference_display":"Membership Type","type":"choice","base_type":"choice","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"membership_type","choices":[{"used":false,"label":"Daily","image":"","rawLabel":"Daily","selected":false,"missing":false,"reference":false,"value":"daily","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Yearly","image":"","rawLabel":"Yearly","selected":false,"missing":false,"reference":false,"value":"yearly","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Weekly","image":"","rawLabel":"Weekly","selected":false,"missing":false,"reference":false,"value":"weekly","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Monthly","image":"","rawLabel":"Monthly","selected":false,"missing":false,"reference":false,"value":"monthly","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}}],"usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["membership_plan"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["membership_plan"]}},{"name":"Created_1.current.member_type","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Member Type","reference":"","reference_display":"Member Type","type":"choice","base_type":"choice","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"member_type","choices":[{"used":false,"label":"Manager","image":"","rawLabel":"Manager","selected":false,"missing":false,"reference":false,"value":"manager","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Member/User","image":"","rawLabel":"Member/User","selected":false,"missing":false,"reference":false,"value":"member_user","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}},{"used":false,"label":"Trainer","image":"","rawLabel":"Trainer","selected":false,"missing":false,"reference":false,"value":"trainer","parameters":{"name":"x_1606613_gym_ma_0_user_reg_req_722630","dependent_values":[""]}}],"usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["member_type"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["member_type"]}},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"last_name","usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["name"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["name"]}},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"x_1606613_gym_ma_0_user_reg_req_722630","column_name":"first_name","usedInstances":{"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["name"],"eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14":["name"]}},{"name":"{{static.4538753b83672210ed9bfe55eeaad3da}}","label":"GMS - GYM Manager","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"2bdaf569-aef1-49ff-8469-8619df5d9219":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Gym Ma 0 User Reg Req 722630 Record","reference":"x_1606613_gym_ma_0_user_reg_req_722630","reference_display":"Gym Ma 0 User Reg Req 722630","type":"reference","base_type":"reference","usedInstances":{"2bdaf569-aef1-49ff-8469-8619df5d9219":["record"],"b0cbe2d4-096a-4fb6-bfeb-d78eebaaf402":["u_string_2"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Convert Registration to GYM User Record</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Convert Registration to GYM User Record">5118313b83672210ed9bfe55eeaad33e</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a13af1fb83672210ed9bfe55eeaad323</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:27</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a13af1fb83672210ed9bfe55eeaad323^sys_idNOT IN2d3af1fb83672210ed9bfe55eeaad323"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a13af1fb83672210ed9bfe55eeaad323</id>
+        <name>Convert Registration to GYM User Record</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:54</sys_created_on>
+        <sys_id>2d3af1fb83672210ed9bfe55eeaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:00:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2d3af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a13af1fb83672210ed9bfe55eeaad323^sys_idNOT IN693af1fb83672210ed9bfe55eeaad324,a13af1fb83672210ed9bfe55eeaad331"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Convert Registration to GYM User Record">a13af1fb83672210ed9bfe55eeaad323</model>
+        <model_id>a13af1fb83672210ed9bfe55eeaad323</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a13af1fb83672210ed9bfe55eeaad323</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:54</sys_created_on>
+        <sys_id>693af1fb83672210ed9bfe55eeaad324</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=693af1fb83672210ed9bfe55eeaad324"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Convert Registration to GYM User Record">a13af1fb83672210ed9bfe55eeaad323</model>
+        <model_id>a13af1fb83672210ed9bfe55eeaad323</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a13af1fb83672210ed9bfe55eeaad323</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:54</sys_created_on>
+        <sys_id>a13af1fb83672210ed9bfe55eeaad331</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a13af1fb83672210ed9bfe55eeaad331"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a13af1fb83672210ed9bfe55eeaad323^sys_idNOT INe53af1fb83672210ed9bfe55eeaad34c"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Convert Registration to GYM User Record">a13af1fb83672210ed9bfe55eeaad323</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:54</sys_created_on>
+        <sys_id>e53af1fb83672210ed9bfe55eeaad34c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:26</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUJPLZACuvgS522bZNsAe0Edb/sQpAIlkjZRinIkSom7yL93qJtlSXbsWNk6DwkgkuIcHp05M/Tdd0NgjwrjwphhT1DjzOBS0UhiMVstKQwrPexKHOi5AEuCVRitjAsVJfTMYFEYzGiwFFjBYoZFDINhRGhkXFhnRopFQm9X8Q2BneD9bJtiT6OYhucn1xqZo5HluPNV4AbYNd0kppEb0Tn8Pbhj2x45JrxAeAyhVn8W7/22CtBnjEz0DVajKZ3D3wOqVvsLLkhEpXFxd39mLHEE0ZVG9r0xxTU8n/l4YlPTdyzHtk3TPh9Y3sjxLJs4mJp6wyZVjeOoDsbWXNAnRSWhpKKpRWZEMfkqxapasYBvkRMX4KeY/wu7n5t6HaOA3af5XPXoFvTkw/4i5D79ulQ8lPlIjjOfDEUSyC85fk0sZTgRqiQWRuADuIQuNWQNokDEbhfh47QM+JHL7HTFpAh9LKonrFTEvUTRWBPOuADq3ZybOEyiDP30+vLr9Mr968Ps8vfrqTu9vp1Nby5n11fGc3Yu9yHRO+YICyxufpznSg0fORX6A9IAcwErYz/iS/XBVzwtNfl8ttb5ZSgJz0hpad0vp+JNrZeH3yV209wqd78WsZT839d/tPWcDx4m29EIY0LxFtl6rCbb+sk7oKkOEuqn2yXgYmQfBQ9M83/ScGFZr5VwEBIqrtbbGTA5n4OouVwmSrP1iKWKXRW6mBC3xqNeCphe0nR+tucXFRwlEl5wq+/R1nFGW8XfJx4D3DtIwpKbbEuYZ5+KLaeJRCF8OPiH/CQCahQqbY3dBHheMMpuqaC+qomAgffWnj7zOOZyXkNdBc04aMWswoGYUHmkPHZ8ZPD7PpO4TXraILORzAdnsmUx5lFmm2Odx5bpeMwyx+YQM+KYpm/XMrkNZitK1ZDEm2T0YfkcZ2IUe0ivSXEB3qxnw14ySjc1WJKgJVLYxmU/0KyeoNkaWsP+nIP8r5JlPny1qc5dR+u59GOSYniD7GuDezogE+EjWO8r3M/D/j/zKEwkadqR3hNxidYr0E8Ffz/36IQshM52J4DNFafkgWvaS+FiuerB/RxmeRM6oCaYngN+5w0nE8/HNmPj0ZjaVsP91jA6sb0L13tBbWmXXLc5YKdw0i69HeB9RwBs+eDBAI93wEKYnf6Xz70Pp3tcUJlfiIX2spbhzQUntJzrN9tbodN1fh+b8ex84g+t8dgfw60FMp4NqIetgT3Ek/HIOR82Mr4FZRdM1cHMD7nLxKs4A7LFDb7lU6d1N39L2cZUKV2ODq/SEvrY7B2cB6lVSv1ZUGYqYYS+hPKXm/U6dEuhAGYX2r7K9T4osl+g3haGF6pFq1+A0L/C+EZo3WduYeXkrlQNkaSbZz36SkUH58MJc7othk26LGYNZjvMk28v9syQdGuudfUZ+wo+7cybrY3BKyTckEm9Y9jR0vRFitU7KfbbkeIc3UaVubj1HvkasO+ohGV9xTF1TMekbsjq5n0VIphAEARxhopfEilB3gqpBQVKBfTLEBDp6Me6dr2KtKFUCv6xQPIOvFXNYBgVDdTpFaqGFPq9AVMyxsOhs6UfnjRvwF2AXsB78mXr4KxIu5JsZ+06bN/mnp3VqybZTUXsWZd6PXV3cTru1J3l6aVTH194dt3fO1CcaEm5/w+ybrRJZB8AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a13af1fb83672210ed9bfe55eeaad323^sys_idNOT IN1d0bb53f83672210ed9bfe55eeaad3d7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Convert Registration to GYM User Record">a13af1fb83672210ed9bfe55eeaad323</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:04:26</sys_created_on>
+        <sys_id>1d0bb53f83672210ed9bfe55eeaad3d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:26</sys_updated_on>
+        <ui_id>eaa7df0a-6ffb-429e-8a5e-f7a2327bfc14</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVUWvbMBD+K0XPxthxZ9q8jZTsZW1h3QKja4VsnROBLHuSnMYL+e87WXIa2oRusJcyP0V3352+7/z5cr8lgpMpyVNIPlymeZmlWTZJksnFeVrkWZFOeMYAzklEFKsBkZYVEuhwiMiayc4FNzTNkzxPM7rsa1ozmgw/OgPaIIwL00rWLwL60/frs28hVa6E5BoUmd4/RKRlGhtb0GS6fZH6U5qSFSAR+tXxPEHb9u3R2OfD2rMbn2g0d3ySiMDGguKARComDUSkZooz2+ieTK3uMKCB8Vsl+z1iJZTFhsRhN0b8wmsvEoerAJWV4HP7Iw2T8uHqill2h51L2+kALVeNKMH4mXCoWCft7DDmAbetFY3yJYPMUN3IrlY3fiRk32B8MRjBV0Y5tE6nYx5kVHer5unLyHIu1DCSkJRNyeT+xKzVouis47MlIKHGRmiJthVqSVvdrMVQjFzqeCnxEFeyecJLjViqmJWOeIxjZfEc41dDeMG0cCqusQ0W7yJiejOTzJhnLThE+rNzTLyyoIH6MbiSUovWfsQL1hDo7qLR/xySy5PGSotnIw2WNwfe76hBxaht8qNLkoxvtzO0gQVO07jsNE7MxlAzIXe7R9fjNKoS2tjBj7vdsTzqHdOPNdQFaOpce7rhAWhfYlaipegx9VbZAPSlrz/h/0P0Xy6ntz00Lqe5AMnNEVONmwlqZGuBepO92E4hebYIybCh0n+1oXCXD8872lNe3LtfUwf/SCcW1sNvarfuYbIHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1d0bb53f83672210ed9bfe55eeaad3d7"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a13af1fb83672210ed9bfe55eeaad323</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:54</sys_created_on>
+        <sys_id>693af1fb83672210ed9bfe55eeaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:00:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a13af1fb83672210ed9bfe55eeaad323</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:54</sys_created_on>
+        <sys_id>a53af1fb83672210ed9bfe55eeaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:00:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a13af1fb83672210ed9bfe55eeaad323"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>5118313b83672210ed9bfe55eeaad33e</sys_id>
+        <latest_snapshot>a13af1fb83672210ed9bfe55eeaad323</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch0-07-15-2025_07-23-2025_1759.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5118313b83672210ed9bfe55eeaad33e^sys_idNOT IN693af1fb83672210ed9bfe55eeaad367"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"693af1fb83672210ed9bfe55eeaad367","name":"plan","plan_signature":null}}</plan>
+        <plan_id>5118313b83672210ed9bfe55eeaad33e</plan_id>
+        <snapshot>4c2b793f83672210ed9bfe55eeaad3b8</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 21:00:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>693af1fb83672210ed9bfe55eeaad367</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 21:04:27</sys_updated_on>
+        <trigger display_value="">e50bf53f83672210ed9bfe55eeaad307</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5118313b83672210ed9bfe55eeaad33e"/>
+</record_update>

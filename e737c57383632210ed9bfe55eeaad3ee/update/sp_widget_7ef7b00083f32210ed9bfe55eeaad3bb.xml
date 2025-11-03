@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope, $timeout) {
+  var c = this;
+  var serverRequest = {};
+  $scope.sysID = null;
+ 
+  $scope.submitDetails = function(param) {
+    c.takePhoto().then(function(base64Image) {
+      serverRequest.action = "submitDetails";
+      serverRequest.param = param;
+      serverRequest.imageNewData = base64Image;
+ 
+      // Include sysID only for check-out
+      if (param === 'check_out' && $scope.sysID) {
+        serverRequest.sysID = $scope.sysID;
+      }
+ 
+      c.server.get(serverRequest).then(function(r) {
+        var audio = document.getElementById('audioPlayer');
+        if (param === 'check_in' && r.data.sysID) {
+          $scope.sysID = r.data.sysID;
+          $scope.infoMessage = "✅ Check-in successful!";
+          if (audio) {
+            audio.play().catch(function(error) {
+              console.error("Audio playback failed:", error);
+            });
+          }
+        } else if (param === 'check_out') {
+          $scope.infoMessage = "✅ Check-out successful!";
+          if (audio) {
+            audio.play().catch(function(error) {
+              console.error("Audio playback failed:", error);
+            });
+          }
+        }
+      });
+    }).catch(function(err) {
+      console.error("❌ Error during photo capture:", err);
+      $scope.infoMessage = "❌ Error: Could not capture image.";
+    });
+  };
+ 
+  c.takePhoto = function() {
+    return new Promise(function(resolve, reject) {
+      navigator.mediaDevices.getUserMedia({
+        video: {
+          facingMode: "environment"
+        }
+      })
+      .then(function(stream) {
+        const video = document.createElement('video');
+        const canvas = document.createElement('canvas');
+        video.style.display = 'none';
+        canvas.style.display = 'none';
+        document.body.appendChild(video);
+        document.body.appendChild(canvas);
+ 
+        video.srcObject = stream;
+        video.play();
+ 
+        $timeout(function() {
+          canvas.width = video.videoWidth;
+          canvas.height = video.videoHeight;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+          stream.getTracks().forEach(track => track.stop());
+          const dataUrl = canvas.toDataURL('image/png');
+          const base64Image = dataUrl.split(',')[1];
+ 
+          document.body.removeChild(video);
+          document.body.removeChild(canvas);
+          resolve(base64Image); // Return the image data
+        }, 1000);
+      })
+      .catch(function(err) {
+        console.error("❌ Error accessing camera:", err);
+        reject(err);
+      });
+    });
+  };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Full-page wrapper */
+.widget-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+  background: #f0f4f8;
+}
+
+/* Widget card styling */
+.widget-content {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Rest of your styling */
+.alert {
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.alert-info {
+  background-color: #e8f4fd;
+  border-left: 5px solid #2a9fd6;
+  color: #05668d;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #2a9fd6;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  max-width: 200px;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #2179ab;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.or-text {
+  margin: 10px 0;
+  font-weight: 600;
+  color: #666;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .userName {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  .or-text {
+    font-size: 13px;
+  }
+
+  .widget-content {
+    padding: 20px;
+  }
+}
+
+
+
+/* Camra CSS */
+
+
+
+.camera-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .camera-button:hover {
+      background-color: #0056b3;
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+
+    #preview {
+      margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+    }
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>GMS Check-In &amp; Check- Out Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.status = 'error'; // default fallback
+  data.sysID = null;
+  var userSysID = gs.getUserID();
+  data.userName = gs.getUser().getName();
+  var currDateTime = new GlideDateTime().getDisplayValue();
+ 
+  if (input && input.action === 'submitDetails') {
+    var rdata = input.imageNewData; // Get the image data
+    var paramType = input.param;
+ 
+    if (paramType === 'check_in') {
+      var grGymAttend = new GlideRecord('x_1606613_gym_ma_0_gym_attend');
+      grGymAttend.initialize();
+      grGymAttend.notes = "Check in at " + currDateTime;
+      grGymAttend.gym_member = userSysID;
+      grGymAttend.check_in_time = currDateTime;
+ 
+      var newSysID = grGymAttend.insert();
+      data.sysID = newSysID;
+      data.status = 'success';
+ 
+      if (newSysID && rdata) {
+        var attendeeName = grGymAttend.getDisplayValue('gym_member');
+        var dateStr = new GlideDateTime().getLocalDate().toString();
+        var fileName = attendeeName + '_' + dateStr + '.png';
+        var contentType = 'image/png';
+        var sa = new GlideSysAttachment();
+        var attachmentSysId = sa.writeBase64(grGymAttend, fileName, contentType, rdata);
+        grGymAttend.user_phto = attachmentSysId;
+        grGymAttend.update(); // Update the record with the photo link
+      }
+ 
+    } else if (paramType === 'check_out') {
+      var grGYMAttendTwo = new GlideRecord('x_1606613_gym_ma_0_gym_attend');
+      grGYMAttendTwo.addQuery('sys_id', input.sysID);
+      grGYMAttendTwo.query();
+      if (grGYMAttendTwo.next()) {
+        grGYMAttendTwo.check_out_time = currDateTime;
+        grGYMAttendTwo.notes = "Checked Out at " + currDateTime;
+        grGYMAttendTwo.update();
+        data.status = 'success';
+      }
+    }
+  }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 10:50:34</sys_created_on>
+        <sys_id>7ef7b00083f32210ed9bfe55eeaad3bb</sys_id>
+        <sys_mod_count>86</sys_mod_count>
+        <sys_name>GMS Check-In &amp; Check- Out Widget</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sp_widget_7ef7b00083f32210ed9bfe55eeaad3bb</sys_update_name>
+        <sys_updated_by>s.parashar</sys_updated_by>
+        <sys_updated_on>2025-09-02 07:51:15</sys_updated_on>
+        <template><![CDATA[<div class="widget-wrapper">
+<div class="widget-content">
+<div ng-if="infoMessage" class="alert alert-info" role="alert">
+
+      {{infoMessage}}
+</div>
+ 
+    <div class="userName">
+
+      Hey! {{data.userName}} Do you want to 
+</div>
+ 
+    <div class="btn-container">
+<button ng-click="submitDetails('check_in')">
+
+        Check - In
+</button>
+ 
+      <p class="or-text">OR</p>
+              <audio id="audioPlayer" controls="controls" src="check_in_audio_gms.mp3"  style="display: none;"></audio>
+ 
+      <button ng-click="submitDetails('check_out')">
+
+        Check - Out
+</button>
+      
+</div>
+</div>
+</div>
+
+
+
+ ]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>GYM Inventory</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1606613_gym_ma_0_gym_inventory</name>
+        <number_ref display_value="GINV">09d77655833f2210ed9bfe55eeaad317</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:20:59</sys_created_on>
+        <sys_id>cea7be15833f2210ed9bfe55eeaad3cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GYM Inventory</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sys_db_object_cea7be15833f2210ed9bfe55eeaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:21:00</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1606613_gym_ma_0.gym_inventory_user" name="x_1606613_gym_ma_0.gym_inventory_user">64d7b255833f2210ed9bfe55eeaad36f</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
