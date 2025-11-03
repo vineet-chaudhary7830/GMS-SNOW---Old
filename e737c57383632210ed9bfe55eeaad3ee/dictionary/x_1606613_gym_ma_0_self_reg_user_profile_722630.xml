@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b92313383672210ed9bfe55eeaad35a" extends="sys_self_registered_user_profile" label="Gym Ma 0 Self Reg User Profile 722630" max_length="40" name="x_1606613_gym_ma_0_self_reg_user_profile_722630" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=member_type" label="Member Type" max_length="40" name="member_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=gender" label="Gender" max_length="40" name="gender" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=membership_type" label="Membership Type" max_length="40" name="membership_type" type="string"/>
+    </element>
+</database>

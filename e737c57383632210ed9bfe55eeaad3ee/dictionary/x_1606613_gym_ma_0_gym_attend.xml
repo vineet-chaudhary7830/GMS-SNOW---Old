@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="030bcdb783632210ed9bfe55eeaad327" label="GYM Attendence " max_length="40" name="x_1606613_gym_ma_0_gym_attend" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Check-Out Time" max_length="40" name="check_out_time" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="GYM location" max_length="32" name="gym_location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="User Phto" max_length="40" name="user_phto" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="Check-In Time" max_length="40" name="check_in_time" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Gym Member" max_length="32" name="gym_member" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="gym_location"/>
+        </index>
+        <index name="index2">
+            <element name="gym_member"/>
+        </index>
+    </element>
+</database>

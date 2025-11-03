@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_user" version="2" view="gms">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - GMS" name="sys_user" related_list="NULL" sys_domain="global" view="f9b1edc483b72210ed9bfe55eeaad3f7">73d1650883b72210ed9bfe55eeaad337</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>ua_user_role_ct.user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_id>3fd1650883b72210ed9bfe55eeaad337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - GMS" name="sys_user" related_list="NULL" sys_domain="global" view="f9b1edc483b72210ed9bfe55eeaad3f7">73d1650883b72210ed9bfe55eeaad337</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sys_user_has_role.user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_id>33d1650883b72210ed9bfe55eeaad338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - GMS" name="sys_user" related_list="NULL" sys_domain="global" view="f9b1edc483b72210ed9bfe55eeaad3f7">73d1650883b72210ed9bfe55eeaad337</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sys_user_grmember.user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_id>37d1650883b72210ed9bfe55eeaad338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - GMS" name="sys_user" related_list="NULL" sys_domain="global" view="f9b1edc483b72210ed9bfe55eeaad3f7">73d1650883b72210ed9bfe55eeaad337</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>sys_user_delegate.user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_id>3bd1650883b72210ed9bfe55eeaad338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - GMS" name="sys_user" related_list="NULL" sys_domain="global" view="f9b1edc483b72210ed9bfe55eeaad3f7">73d1650883b72210ed9bfe55eeaad337</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>sys_user_has_license.user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_id>3fd1650883b72210ed9bfe55eeaad338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - GMS" name="sys_user" related_list="NULL" sys_domain="global" view="f9b1edc483b72210ed9bfe55eeaad3f7">73d1650883b72210ed9bfe55eeaad337</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>sys_user_certificate.user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_id>33d1650883b72210ed9bfe55eeaad339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - GMS" name="sys_user" related_list="NULL" sys_domain="global" view="f9b1edc483b72210ed9bfe55eeaad3f7">73d1650883b72210ed9bfe55eeaad337</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>x_1606613_gym_ma_0_gym_attend.gym_member</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_id>37d1650883b72210ed9bfe55eeaad339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>User - GMS</calculated_name>
+            <filter/>
+            <name>sys_user</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-31 13:53:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73d1650883b72210ed9bfe55eeaad337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User - GMS</sys_name>
+            <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+            <sys_update_name>sys_ui_related_sys_user_gms</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-31 13:53:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="GMS" name="gms">f9b1edc483b72210ed9bfe55eeaad3f7</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

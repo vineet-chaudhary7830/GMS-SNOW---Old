@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>GYM Management</application_name>
+        <bucket_document_id>63c3e5f783e32210ed9bfe55eeaad369</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_metadata_customer_override/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type/>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_1606613_gym_ma_0.sp_portal.63c3e5f783e32210ed9bfe55eeaad369</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 19:23:30</sys_created_on>
+        <sys_id>eee369f783e32210ed9bfe55eeaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GYM Management</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sys_analytics_bucket_eee369f783e32210ed9bfe55eeaad34b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 19:23:30</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

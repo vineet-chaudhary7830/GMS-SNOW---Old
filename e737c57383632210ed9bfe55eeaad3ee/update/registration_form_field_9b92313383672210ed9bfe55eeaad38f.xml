@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="INSERT_OR_UPDATE">
+        <column_label>Mobile phone</column_label>
+        <column_name>mobile_phone</column_name>
+        <custom_field>false</custom_field>
+        <display>false</display>
+        <mandatory>false</mandatory>
+        <order>10000</order>
+        <registration_configuration display_value="GMS Registration">e45279ff83272210ed9bfe55eeaad37f</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:27:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9b92313383672210ed9bfe55eeaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobile phone</sys_name>
+        <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">41d0357b83272210ed9bfe55eeaad31b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>registration_form_field_9b92313383672210ed9bfe55eeaad38f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 20:27:43</sys_updated_on>
+        <type>6</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+</record_update>

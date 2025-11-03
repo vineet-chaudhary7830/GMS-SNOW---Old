@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1606613_gym_ma_0_gym_inventory">x_1606613_gym_ma_0_gym_inventory</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>GINV</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:21:00</sys_created_on>
+        <sys_id>09d77655833f2210ed9bfe55eeaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GINV</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sys_number_09d77655833f2210ed9bfe55eeaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:21:00</sys_updated_on>
+    </sys_number>
+</record_update>

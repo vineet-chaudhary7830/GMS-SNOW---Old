@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1606613_gym_ma_0_self_reg_user_profile_722630</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-30 20:27:43</sys_created_on>
+        <sys_id>5392313383672210ed9bfe55eeaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1606613_gym_ma_0_self_reg_user_profile_722630</sys_name>
+        <sys_package display_value="GYM Management Application" source="x_1606613_gym_ma_0">e737c57383632210ed9bfe55eeaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GYM Management Application">e737c57383632210ed9bfe55eeaad3ee</sys_scope>
+        <sys_update_name>sys_security_acl_5392313383672210ed9bfe55eeaad36a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-30 20:27:43</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
